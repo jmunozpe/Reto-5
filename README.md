@@ -21,8 +21,7 @@ Reto-5/
 ├── tests/
 │ └── test_shapes.py
 │
-├── main.py # Usa el paquete con módulos separados
-├── main_module.py # Usa el paquete con módulo único
+├── main.py 
 ├── LICENSE
 ├── .gitignore
 └── README.md
