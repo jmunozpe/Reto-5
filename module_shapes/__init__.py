@@ -71,3 +71,8 @@ class Triangle(Shape):
             f"  Area: {self.compute_area()}\n"
             f"  Perimeter: {self.compute_perimeter()}"
         )
+
+from .shapes import Shape, Rectangle, Circle, Triangle
+
+__all__ = ["Shape", "Rectangle", "Circle", "Triangle"]
+
