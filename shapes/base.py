@@ -1,6 +1,6 @@
 class Shape:
-    def area(self):
-        return 0
+    def compute_area(self):
+        raise NotImplementedError("Debes implementar este método en la subclase.")
 
-    def perimeter(self):
-        return 0
+    def compute_perimeter(self):
+        raise NotImplementedError("Debes implementar este método en la subclase.")
