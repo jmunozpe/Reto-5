@@ -1,10 +1,10 @@
 # Reto-5
 Reto 5: paquete Shapes con módulos separados y clase base
 
- ## 📁 Estructura del proyecto
+ ## 📁 Estructura del reto
 
 
-
+```
 Reto-5/
 │
 ├── module_shapes/ # Opción 1: módulo único
@@ -26,3 +26,4 @@ Reto-5/
 ├── LICENSE
 ├── .gitignore
 └── README.md
+```
