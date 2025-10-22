@@ -1,14 +1,13 @@
 from shapes import Rectangle, Circle, Triangle
 
-def mostrar(figura):
-    nombre = type(figura).__name__
-    print(f"{nombre} -> área = {figura.area():.2f}, perímetro = {figura.perimeter():.2f}")
+# Crear objetos
+rect = Rectangle(4, 6)
+circle = Circle(3)
+tri = Triangle(base=4, height=3, side_a=3, side_b=4, side_c=5)
 
-if __name__ == "__main__":
-    r = Rectangle(3, 4)
-    c = Circle(2)
-    t = Triangle(a=3, b=4, c=5, base=4, height=2.5)
-
-    mostrar(r)
-    mostrar(c)
-    mostrar(t)
+# Mostrar resultados
+print(rect)
+print()
+print(circle)
+print()
+print(tri)
