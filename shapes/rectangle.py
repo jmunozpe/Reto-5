@@ -5,8 +5,18 @@ class Rectangle(Shape):
         self.width = width
         self.height = height
 
-    def area(self):
+    def compute_area(self):
         return self.width * self.height
 
-    def perimeter(self):
+    def compute_perimeter(self):
         return 2 * (self.width + self.height)
+
+    def __str__(self):
+        return (
+            f"Rectangle:\n"
+            f"  Width: {self.width}\n"
+            f"  Height: {self.height}\n"
+            f"  Area: {self.compute_area()}\n"
+            f"  Perimeter: {self.compute_perimeter()}"
+        )
+
