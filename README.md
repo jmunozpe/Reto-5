@@ -8,3 +8,4 @@ Implementación de un paquete `shapes` en Python con clases separadas que hereda
 ---
 
 
+python main.py
